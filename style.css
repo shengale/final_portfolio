@@ -1,0 +1,131 @@
+body {
+    background: #1D1C1C;
+    color: #ffffff;
+    padding: 50px;
+    font-family: Helvetica;
+}
+
+h1 {
+    margin: 15px 0;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 100;
+}
+
+.card {
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: rgba(0,0,0, 0.1) 0 10px 10px;
+    border: 1px solid #aaa;
+}
+
+.card .avatar {
+    box-shadow: rgba(0,0,0, 0.1) 0 10px 10px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts li {
+    width: 30px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.contacts li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+.AS {
+    font-family: Courier;
+    color: rgb(19, 179, 228);
+}
+
+#Movie-header {
+    color: rgb(228, 214, 20);
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
+#SWROTS {
+    background: #424242;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.speaking-scene {
+    background: #424242;
+    padding: 3px;
+}
+
+.speaking-scene-new {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+    margin-bottom: auto;
+}
+
+.box1 {
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 5px;
+    background-color:#424242;
+    border: 2px solid rgb(90, 5, 5);
+    position: relative;
+    text-align: center;
+}
+
+.box2 {
+    grid-column: 3;
+    grid-row: 1;
+    border-radius: 5px;
+    background-color:#424242;
+    border: 2px solid rgb(79,185,227);
+    position: relative;
+    text-align: center;
+}
+
+.box3 {
+    grid-column: 1;
+    grid-row: 2/4;
+    position: relative; 
+}
+
+#AnakinHate{
+    width: 550px;
+    border-radius: 5px;
+    border: 2px solid rgb(90, 5, 5);
+}
+
+.box4 {
+    grid-column: 3;
+    grid-row: 2/4;
+    position: relative;   
+}
+
+#ObiBro{
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid rgb(79,185,227);
+}
+
+span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
