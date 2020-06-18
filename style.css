@@ -65,7 +65,7 @@ h2 {
 .speaking-scene {
     background: #424242;
     padding: 1px;
-    font-size: 14;
+    font-size: 16;
 }
 
 .speaking-scene-new {
@@ -159,7 +159,7 @@ span {
     font-family: Helvetica;
     color: black;
 }
-.list2 {
+.list3 {
     grid-column: 3;
     grid-row: 1;
     border-radius: 5px;
