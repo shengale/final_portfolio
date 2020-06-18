@@ -66,6 +66,8 @@ h2 {
     background: #424242;
     padding: 1px;
     font-size: 16;
+    border-radius: 5px;
+    border: 2px solid rgb(79,185,227);
 }
 
 .speaking-scene-new {
@@ -89,13 +91,15 @@ h2 {
 }
 
 .box2 {
-    grid-column: 3;
+    grid-column: 1;
     grid-row: 1;
     border-radius: 5px;
-    background-color:#424242;
+    background-color:#ffffff;
     border: 2px solid rgb(79,185,227);
     position: relative;
     text-align: center;
+    font-family: Helvetica;
+    color: black;
 }
 
 .box3 {
